@@ -8,6 +8,7 @@ class Solution {
             temp[i] = max;
             max = Math.max(max, arr[i]) ;
         }
+        
         return temp ;
     }
 }
